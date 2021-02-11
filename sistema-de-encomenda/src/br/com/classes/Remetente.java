@@ -1,11 +1,16 @@
 package br.com.classes;
 
-public class Remetente extends Cliente{
+public class Remetente {
+	private Cliente cliente;
 
-	public Remetente(int id,String nomeCompleto, String email, String telefone, String cpf, String rg, Endereco endereco,
-			char sexo) {
-		super(nomeCompleto, email, telefone, cpf, rg, endereco, sexo, id);
-		
+	public Remetente(Cliente cliente) {
+		super();
+		this.cliente = cliente;
 	}
-
+	public Cliente getCliente() {
+		return cliente;
+	}
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
 }

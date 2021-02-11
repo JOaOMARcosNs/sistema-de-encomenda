@@ -14,7 +14,7 @@
   <class id="2" language="java" name="br.com.classes.Remetente" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Remetente.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="88" width="389" x="1605" y="1088"/>    
+    <position height="-1" width="-1" x="1799" y="927"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -44,7 +44,7 @@
   <class id="5" language="java" name="br.com.classes.Endereco" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Endereco.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="466" width="311" x="1121" y="582"/>    
+    <position height="-1" width="-1" x="940" y="250"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -54,7 +54,7 @@
   <class id="6" language="java" name="br.com.classes.Destinatario" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Destinatario.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="88" width="394" x="1472" y="582"/>    
+    <position height="-1" width="-1" x="1950" y="228"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -64,7 +64,7 @@
   <class id="7" language="java" name="br.com.classes.Postagem" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Postagem.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="358" width="386" x="1906" y="22"/>    
+    <position height="-1" width="-1" x="2563" y="203"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -74,7 +74,7 @@
   <class id="8" language="java" name="br.com.classes.Funcionario" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Funcionario.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="304" width="548" x="1906" y="582"/>    
+    <position height="-1" width="-1" x="2011" y="637"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -101,66 +101,82 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="11">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="12">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <association id="13">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="14" name="endereco"/>      
-      <multiplicity id="15" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="16">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="17" name="destinatario"/>      
-      <multiplicity id="18" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="19">    
+  <association id="11">    
     <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="20" name="remetente"/>      
-      <multiplicity id="21" minimum="0" maximum="1"/>    
+      <attribute id="12" name="remetente">        
+        <position height="0" width="0" x="0" y="-205"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="-205"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="22">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <association id="23">    
+  <association id="14">    
     <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="24" name="encomenda"/>      
-      <multiplicity id="25" minimum="0" maximum="1"/>    
+      <attribute id="15" name="destinatario">        
+        <position height="0" width="0" x="281" y="-398"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="1">        
+        <position height="0" width="0" x="281" y="-398"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="18" name="endereco">        
+        <position height="0" width="0" x="-336" y="-565"/>      
+      </attribute>      
+      <multiplicity id="19" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-336" y="-565"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="20">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="21" name="encomenda">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="22" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="9" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="26">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="1"/>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
   </generalization>  
-  <generalization id="27">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="4"/>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
   </generalization>  
-  <association id="28">    
+  <association id="25">    
     <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="29" name="funcionario"/>      
-      <multiplicity id="30" minimum="0" maximum="1"/>    
+      <attribute id="26" name="funcionario">        
+        <position height="0" width="0" x="-169" y="-97"/>      
+      </attribute>      
+      <multiplicity id="27" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-169" y="-97"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
