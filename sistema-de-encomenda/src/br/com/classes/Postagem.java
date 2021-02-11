@@ -1,6 +1,4 @@
 package br.com.classes;
-
-
 import java.util.Date;
 
 public class Postagem {
@@ -8,12 +6,14 @@ public class Postagem {
 	private Date previsaoEntregaDate;
 	private Encomenda encomenda;
 	private Destinatario destinatario;
-	public Postagem(Date dataPostagem, Date previsaoEntregaDate, Encomenda encomenda, Destinatario destinatario) {
+	private Funcionario funcionario;
+	public Postagem(Date dataPostagem, Date previsaoEntregaDate, Encomenda encomenda, Destinatario destinatario, Funcionario funcionario) {
 		super();
 		this.dataPostagem = dataPostagem;
 		this.previsaoEntregaDate = previsaoEntregaDate;
 		this.encomenda = encomenda;
 		this.destinatario = destinatario;
+		this.funcionario = funcionario;
 	}
 	public Date getDataPostagem() {
 		return dataPostagem;
@@ -39,6 +39,10 @@ public class Postagem {
 	public void setDestinatario(Destinatario destinatario) {
 		this.destinatario = destinatario;
 	}
-
-	
+	public Funcionario getFuncionario() {
+		return funcionario;
+	}
+	public void setFuncionario(Funcionario funcionario) {
+		this.funcionario = funcionario;
+	}	
 }
