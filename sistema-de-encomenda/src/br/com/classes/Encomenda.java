@@ -1,40 +1,35 @@
 package br.com.classes;
 
-
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 public class Encomenda {
-	private Date dataPostagem;
-	private Date previsaoEntregaDate;
+	private double peso;
+	private double altura;
+	private double largura;
 	private Remetente remetente;
-	private Destinatario destinatario;
 	
-
-
-	public Encomenda(String dataPostagem, Date previsaoEntregaDate, Remetente remetente, Destinatario destinatario) {
+	public Encomenda(double peso, double altura, double largura, Remetente remetente) {
 		super();
-		try {
-			this.dataPostagem = new SimpleDateFormat("dd/MM/yyyy").parse(dataPostagem);
-		} catch (ParseException e) {
-			e.printStackTrace();
-		}
-		this.previsaoEntregaDate = previsaoEntregaDate;
+		this.peso = peso;
+		this.altura = altura;
+		this.largura = largura;
 		this.remetente = remetente;
-		this.destinatario = destinatario;
 	}
-	public Date getDataPostagem() {
-		return dataPostagem;
+	public double getPeso() {
+		return peso;
 	}
-	public void setDataPostagem(Date dataPostagem) {
-		this.dataPostagem = dataPostagem;
+	public void setPeso(double peso) {
+		this.peso = peso;
 	}
-	public Date getPrevisaoEntregaDate() {
-		return previsaoEntregaDate;
+	public double getAltura() {
+		return altura;
 	}
-	public void setPrevisaoEntregaDate(Date previsaoEntregaDate) {
-		this.previsaoEntregaDate = previsaoEntregaDate;
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+	public double getLargura() {
+		return largura;
+	}
+	public void setLargura(double largura) {
+		this.largura = largura;
 	}
 	public Remetente getRemetente() {
 		return remetente;
@@ -42,13 +37,5 @@ public class Encomenda {
 	public void setRemetente(Remetente remetente) {
 		this.remetente = remetente;
 	}
-	public Destinatario getDestinatario() {
-		return destinatario;
-	}
-	public void setDestinatario(Destinatario destinatario) {
-		this.destinatario = destinatario;
-	}
 
-
-	
 }
