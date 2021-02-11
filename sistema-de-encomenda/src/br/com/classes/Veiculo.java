@@ -1,6 +1,7 @@
 package br.com.classes;
 
 public class Veiculo {
+	private int id;
 	private String fabricante;
 	private String modelo;
 	private String marca;
@@ -9,8 +10,9 @@ public class Veiculo {
 	private String ano;
 	private String numeroChassi;
 	
-	public Veiculo(String fabricante, String modelo, String marca, String placa, String cor, String ano, String numeroChassi) {
+	public Veiculo(int id, String fabricante, String modelo, String marca, String placa, String cor, String ano, String numeroChassi) {
 		super();
+		this.id = id;
 		this.fabricante = fabricante;
 		this.modelo = modelo;
 		this.marca = marca;
@@ -19,7 +21,12 @@ public class Veiculo {
 		this.ano = ano;
 		this.numeroChassi = numeroChassi;
 	}
-
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public String getFabricante() {
 		return fabricante;
 	}

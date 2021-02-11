@@ -1,6 +1,7 @@
 package br.com.classes;
 
 public class Endereco {
+	private int id;
 	private String rua;
 	private int numero;
 	private String complemento;
@@ -8,8 +9,9 @@ public class Endereco {
 	private String cidade;
 	private String estado;
 	
-	public Endereco(String rua, int num, String compl, String bairro, String cidade, String uf) {
+	public Endereco(int id,String rua, int num, String compl, String bairro, String cidade, String uf) {
 		super();
+		this.id = id;
 		this.rua = rua;
 		this.numero = num;
 		this.complemento = compl;
@@ -17,6 +19,15 @@ public class Endereco {
 		this.cidade = cidade;
 		this.estado = uf;
 	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public String getRua() {
 		return rua;
 	}

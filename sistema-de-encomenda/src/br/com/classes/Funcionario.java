@@ -5,10 +5,13 @@ public class Funcionario extends Pessoa{
 	private String cargo;
 	private String setor;
 	private String carteiraTrabalho;
-	
-	public Funcionario(String nome, String email, String tel, String cpf, String rg, Endereco end, char sx) {
-		super(nome, email, tel, cpf, rg, end, sx);
-		
+	public Funcionario(String nomeCompleto, String email, String telefone, String cpf, String rg, Endereco endereco,
+			char sexo, int id, double salario, String cargo, String setor, String carteiraTrabalho) {
+		super(nomeCompleto, email, telefone, cpf, rg, endereco, sexo, id);
+		this.salario = salario;
+		this.cargo = cargo;
+		this.setor = setor;
+		this.carteiraTrabalho = carteiraTrabalho;
 	}
 	public double getSalario() {
 		return salario;
@@ -34,4 +37,6 @@ public class Funcionario extends Pessoa{
 	public void setCarteiraTrabalho(String carteiraTrabalho) {
 		this.carteiraTrabalho = carteiraTrabalho;
 	}
+	
+	
 }

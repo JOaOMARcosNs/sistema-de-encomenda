@@ -1,6 +1,7 @@
 package br.com.classes;
 
 public class Pessoa {
+	private int id;
 	private String nomeCompleto;
 	private String email;
 	private String telefone;
@@ -9,7 +10,7 @@ public class Pessoa {
 	private Endereco endereco;
 	private char sexo;
 	
-	public Pessoa(String nomeCompleto, String email, String telefone, String cpf, String rg, Endereco endereco, char sexo) {
+	public Pessoa(String nomeCompleto, String email, String telefone, String cpf, String rg, Endereco endereco, char sexo, int id) {
 		super();
 		this.nomeCompleto = nomeCompleto;
 		this.email = email;
@@ -18,6 +19,7 @@ public class Pessoa {
 		this.rg = rg;
 		this.endereco = endereco;
 		this.sexo = sexo;
+		this.id = id;
 	}
 	public String getNomeCompleto() {
 		return nomeCompleto;
@@ -61,4 +63,11 @@ public class Pessoa {
 	public void setSexo(char sexo) {
 		this.sexo = sexo;
 	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	
 }

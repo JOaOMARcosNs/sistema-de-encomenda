@@ -2,19 +2,30 @@ package br.com.classes;
 import java.util.Date;
 
 public class Postagem {
+	private int id;
 	private Date dataPostagem;
 	private Date previsaoEntregaDate;
 	private Encomenda encomenda;
 	private Destinatario destinatario;
 	private Funcionario funcionario;
-	public Postagem(Date dataPostagem, Date previsaoEntregaDate, Encomenda encomenda, Destinatario destinatario, Funcionario funcionario) {
+	public Postagem(int id,Date dataPostagem, Date previsaoEntregaDate, Encomenda encomenda, Destinatario destinatario, Funcionario funcionario) {
 		super();
+		this.id = id;
 		this.dataPostagem = dataPostagem;
 		this.previsaoEntregaDate = previsaoEntregaDate;
 		this.encomenda = encomenda;
 		this.destinatario = destinatario;
 		this.funcionario = funcionario;
 	}
+	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public Date getDataPostagem() {
 		return dataPostagem;
 	}

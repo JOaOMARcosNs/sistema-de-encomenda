@@ -1,17 +1,26 @@
 package br.com.classes;
 
 public class Encomenda {
+	private int id;
 	private double peso;
 	private double altura;
 	private double largura;
 	private Remetente remetente;
 	
-	public Encomenda(double peso, double altura, double largura, Remetente remetente) {
+	public Encomenda( int id,double peso, double altura, double largura, Remetente remetente) {
 		super();
+		this.id = id;
 		this.peso = peso;
 		this.altura = altura;
 		this.largura = largura;
 		this.remetente = remetente;
+		
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
 	}
 	public double getPeso() {
 		return peso;
