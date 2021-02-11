@@ -4,7 +4,7 @@
   <class id="1" language="java" name="br.com.classes.Veiculo" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Veiculo.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="520" width="356" x="286" y="22"/>    
+    <position height="520" width="356" x="388" y="-2"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -14,169 +14,169 @@
   <class id="2" language="java" name="br.com.classes.Remetente" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Remetente.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1799" y="927"/>    
+    <position height="124" width="158" x="1505" y="1064"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="br.com.classes.Pessoa" project="sistema-de-encomenda" 
+  <class id="3" language="java" name="br.com.classes.Testar" project="sistema-de-encomenda" 
+    file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Testar.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="130" x="784" y="-2"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="br.com.classes.Pessoa" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Pessoa.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="502" width="369" x="1304" y="22"/>    
+    <position height="502" width="369" x="954" y="-2"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="br.com.classes.Cliente" project="sistema-de-encomenda" 
+  <class id="5" language="java" name="br.com.classes.Cliente" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Cliente.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="88" width="365" x="716" y="582"/>    
+    <position height="88" width="365" x="799" y="1228"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="br.com.classes.Endereco" project="sistema-de-encomenda" 
+  <class id="6" language="java" name="br.com.classes.Endereco" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Endereco.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="940" y="250"/>    
+    <position height="466" width="311" x="839" y="558"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="br.com.classes.Destinatario" project="sistema-de-encomenda" 
+  <class id="7" language="java" name="br.com.classes.Destinatario" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Destinatario.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1950" y="228"/>    
+    <position height="88" width="394" x="1778" y="558"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="7" language="java" name="br.com.classes.Postagem" project="sistema-de-encomenda" 
+  <class id="8" language="java" name="br.com.classes.Postagem" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Postagem.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2563" y="203"/>    
+    <position height="358" width="386" x="1778" y="-2"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="8" language="java" name="br.com.classes.Funcionario" project="sistema-de-encomenda" 
+  <class id="9" language="java" name="br.com.classes.Funcionario" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Funcionario.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="2011" y="637"/>    
+    <position height="304" width="548" x="1190" y="558"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="br.com.classes.Encomenda" project="sistema-de-encomenda" 
+  <class id="10" language="java" name="br.com.classes.Encomenda" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Encomenda.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="340" width="310" x="2494" y="582"/>    
+    <position height="340" width="310" x="2212" y="558"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="10" language="java" name="br.com.classes.Caminhao" project="sistema-de-encomenda" 
+  <class id="11" language="java" name="br.com.classes.Caminhao" project="sistema-de-encomenda" 
     file="/sistema-de-encomenda/sistema-de-encomenda/src/br/com/classes/Caminhao.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="142" width="390" x="286" y="582"/>    
+    <position height="142" width="390" x="388" y="558"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="11">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="12" name="remetente">        
-        <position height="0" width="0" x="0" y="-205"/>      
-      </attribute>      
-      <multiplicity id="13" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="-205"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="2" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="14">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="15" name="destinatario">        
-        <position height="0" width="0" x="281" y="-398"/>      
-      </attribute>      
-      <multiplicity id="16" minimum="0" maximum="1">        
-        <position height="0" width="0" x="281" y="-398"/>      
-      </multiplicity>    
+  <generalization id="12">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="13">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="14" name="endereco"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="17">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="18" name="endereco">        
-        <position height="0" width="0" x="-336" y="-565"/>      
-      </attribute>      
-      <multiplicity id="19" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-336" y="-565"/>      
-      </multiplicity>    
+  <association id="16">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="17" name="destinatario"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
+    <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="20">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="21" name="encomenda">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="22" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
+  <association id="19">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="20" name="remetente"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="22">    
+    <bendpoint x="808" y="1064"/>    
+    <bendpoint x="808" y="558"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="25">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="26" name="funcionario"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="9" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="23">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="24">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <association id="25">    
-    <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="26" name="funcionario">        
-        <position height="0" width="0" x="-169" y="-97"/>      
-      </attribute>      
-      <multiplicity id="27" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-169" y="-97"/>      
-      </multiplicity>    
+  <association id="28">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="29" name="encomenda"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
     </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
+    <end type="TARGET" refId="10" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="28">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <generalization id="29">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
+  <association id="31">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="32" name="cliente"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

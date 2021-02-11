@@ -1,8 +1,9 @@
 package br.com.classes;
 
-public class Remetente {
+public class Remetente{
 	private Cliente cliente;
 
+	
 	public Remetente(Cliente cliente) {
 		super();
 		this.cliente = cliente;
